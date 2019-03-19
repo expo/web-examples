@@ -9051,31 +9051,6 @@ unicode-property-aliases-ecmascript@^1.0.4:
   resolved "https://registry.yarnpkg.com/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-1.0.5.tgz#a9cc6cc7ce63a0a3023fc99e341b94431d405a57"
   integrity sha512-L5RAqCfXqAwR3RriF8pM0lU0w4Ryf/GgzONwi6KnL1taJQa7x1TCxdJnILX59WIGOwR57IVxn7Nej0fz1Ny6fw==
 
-unimodules-barcode-scanner-interface@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/unimodules-barcode-scanner-interface/-/unimodules-barcode-scanner-interface-1.0.0.tgz#2847f080fbe7aaafd17aa7941472d85aaa1dfda9"
-  integrity sha512-7kYof5jsr0ur9NwQuqu5Hzf69F+/p5TbtSy02sHyOu81nHVUt0Ewr4V8babcgMhl9Wf9uYmAplrh53UsMmtySw==
-
-unimodules-camera-interface@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/unimodules-camera-interface/-/unimodules-camera-interface-1.0.0.tgz#63dcfdb63d6bbdff6b9be4c5fcdedccac7f0f14a"
-  integrity sha512-AFPOxe8KFroYnkC8lqlKx2NpGvnOM+LTBLuTFtFOUOx6aBCVZerBqY1X6bLBQAdo3MJw9aaJU2lb6EtE0TychQ==
-
-unimodules-face-detector-interface@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/unimodules-face-detector-interface/-/unimodules-face-detector-interface-1.0.0.tgz#20894e24cc01749f68b1b8ff69ad8dc026380a39"
-  integrity sha512-sSBqU52ZAw2UK9Gh2wd4dfK8aX58BQabewZjJ7zMDAf2PV1vzGZb9b43Rn9j4B8m2KXd1UBE1PLrGvZc1i5qLA==
-
-unimodules-file-system-interface@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/unimodules-file-system-interface/-/unimodules-file-system-interface-1.0.0.tgz#7f36832a5867c180a73adf16bac3780d51e80fdd"
-  integrity sha512-d8ymqi1i+XYARJ512vM4I74F51X8b8Xf4boiMpKVkkdu6ZSxGcyYRiKSuvBrjHYXoAKFaYDlFtSPfGrBuq7VPA==
-
-unimodules-permissions-interface@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/unimodules-permissions-interface/-/unimodules-permissions-interface-1.0.0.tgz#2e4581a8bb4a2e8c5b57a9c18016dfefb7e3738c"
-  integrity sha512-fPc8tmhU4y0ohnZeFOm8BkRabA46eXnELyWIHs0XXNOUrwnlK7KU4pfK7xw6bVuC3Tdu67eQkr3B1y6AMQBxAg==
-
 union-value@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/union-value/-/union-value-1.0.0.tgz#5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4"

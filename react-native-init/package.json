@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "web": "webpack-dev-server -d --config node_modules/@expo/webpack-config --open"
+    "test": "jest"
   },
   "dependencies": {
     "@unimodules/core": "^1.0.0",
@@ -17,16 +16,10 @@
     "react-native-web": "^0.11.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/runtime": "^7.3.4",
-    "@expo/webpack-config": "^0.1.5",
     "babel-jest": "^24.5.0",
-    "babel-preset-expo": "^5.1.1",
     "jest": "^24.5.0",
     "metro-react-native-babel-preset": "^0.53.1",
-    "react-test-renderer": "16.8.3",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "react-test-renderer": "16.8.3"
   },
   "jest": {
     "preset": "react-native"

@@ -1,4 +1,7 @@
 {
   "name": "reactnativeinitdemo",
-  "displayName": "React Native init web demo"
+  "displayName": "React Native init web demo",
+  "expo": {
+    "platforms": ["web"]
+  }
 }

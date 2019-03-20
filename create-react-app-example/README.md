@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Adding Expo
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 - Install [React Native for Web][rnw] and React Native: `yarn add react-native-web react-native`
 - Create an [**`app.json`**](./app.json):

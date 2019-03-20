@@ -1,68 +1,33 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Adding Expo
 
-In the project directory, you can run:
+- Install [React Native for Web][rnw] and React Native: `yarn add react-native-web react-native`
+- Create an [**`app.json`**](./app.json):
+  ```ts
+  {
+      "expo": {
+        "platforms": ["web"]
+      }
+  }
+  ```
+- Install: `yarn add -D babel-preset-expo`
+- Create [**`babel.config.js`**](./babel.config.js)
+  ```ts
+  module.exports = {
+    presets: ['babel-preset-expo'],
+  };
+  ```
+- Install the **`expo-cli`** with `npm i -g expo-cli`
+- Start the project with `expo start --web`
+  - You may want to add `.expo` to your **`.gitignore`**.
+  - (**`--web`**) will automatically open the web page in your browser.
+  - Expo will only start the webpack dev server (and not metro) because `"web"` is the only platform defined in `"platforms"`.
+  - You can prevent the debug screen from opening with: **`--non-interactive`**
+  - Toggle the production environment variable with **`--no-dev`**. This will persist commands so remember to turn it off with **`--dev`**.
 
-### `npm start`
+Now you can import any of the `react-native-web` modules!
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```ts
+import { View } from 'react-native';
+```

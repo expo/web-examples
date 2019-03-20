@@ -8,7 +8,7 @@
   - (_preview_) Use the next version of Expo: `yarn add expo@next`
 - Add `"web"` to `platforms` in the [**`app.json`**](./app.json):
   ```diff
-  platforms: [
+  "platforms": [
       "android",
       "ios",
   +    "web"

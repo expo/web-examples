@@ -2,6 +2,7 @@
 
 ## Table of contents
 
+- [AWS Amplify Console](#aws-amplify-console)
 - [Now](#now)
 - [Surge](#surge)
 - [Netlify](#netlify)
@@ -9,6 +10,20 @@
   - [Continuous delivery](#continuous-delivery)
 - [GitHub Pages](#github-pages)
 
+## [AWS Amplify Console](https://console.amplify.aws)
+
+The AWS Amplify Console provides a Git-based workflow for continuously deploying and hosting full-stack serverless web apps. 
+
+1. Add static files to Git - checkout this repo that has an [Amplify demo](https://github.com/expo/amplify-demo).
+
+2. Add the [amplify.yml](https://github.com/expo/amplify-demo/blob/master/amplify.yml) file to the root of your repo.
+
+3. Login to the [Amplify Console](https://console.aws.amazon.com/amplify/home) and choose **Get started** under **Deploy**.
+
+4. The Amplify Console will detect that the `amplify.yml` file is in your repo. Choose **Next**.
+
+5. Review your settings and choose **Save and deploy**. Your app will now be deployed to a `https://branchname.xxxxxx.amplifyapp.com` URL.
+  
 ## [Now](https://zeit.co/now)
 
 Now has a single-command zero-config deployment flow. You can use `now` to deploy your app for free! 💯

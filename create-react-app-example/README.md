@@ -31,3 +31,5 @@ Now you can import any of the `react-native-web` modules!
 ```ts
 import { View } from 'react-native';
 ```
+
+[rnw]: https://github.com/necolas/react-native-web

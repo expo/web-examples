@@ -4,7 +4,7 @@
     "slug": "expo-managed-workflow",
     "privacy": "public",
     "sdkVersion": "32.0.0",
-    "platforms": ["ios", "android", "web"],
+    "platforms": ["android", "ios", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

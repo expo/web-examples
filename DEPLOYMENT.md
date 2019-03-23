@@ -23,7 +23,7 @@ The AWS Amplify Console provides a Git-based workflow for continuously deploying
 4. The Amplify Console will detect that the `amplify.yml` file is in your repo. Choose **Next**.
 
 5. Review your settings and choose **Save and deploy**. Your app will now be deployed to a `https://branchname.xxxxxx.amplifyapp.com` URL.
-  
+
 ## [Now](https://zeit.co/now)
 
 Now has a single-command zero-config deployment flow. You can use `now` to deploy your app for free! 💯
@@ -34,8 +34,10 @@ Now has a single-command zero-config deployment flow. You can use `now` to deplo
 
 2. Build your Expo web app with `expo build:web`.
 
-3. Run `now --name your-project-name`. You should see a **`now.sh`** URL in your output like:
-   `> Ready! https://expo-web-is-cool-nocabnave.now.sh (copied!)`
+3. To deploy:
+  - Run `cd web-build`
+  - Run `now --name your-project-name`
+  - You should see a **`now.sh`** URL in your output like: `> Ready! https://expo-web-is-cool-nocabnave.now.sh (copied!)`
 
 Paste that URL into your browser when the build is complete, and you will see your deployed app!
 

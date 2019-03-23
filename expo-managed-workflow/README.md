@@ -29,6 +29,27 @@
           ...
           "web": {
               // Add web stuff here.
+
+              // twitter card example
+              "twitter": {
+                "card": "summary",
+                "title": "Expo Web",
+                "description": "examples of using Expo in the browser",
+                "site": "https://expo.io",
+                "image": "//url-to-image",
+                "creator": "expo bacon"
+              },
+
+              // additional meta
+              "metatags": {
+                "author": "anthony kiedis",
+
+                // meta defaults override
+                "format-detection": "telephone=yes"
+              },
+
+              // turn off minify html (default true)
+              "minifyHTML": false
           }
       }
   }

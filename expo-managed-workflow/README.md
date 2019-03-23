@@ -19,6 +19,8 @@
 
 **Extra Credit**
 
+> **This will most likely change**
+
 - To use **`react-navigation`** use: `yarn add react-navigation@3.5.0-alpha.0`
 - Build with `expo build:web`
   - optionally you can use the `--no-polyfill` flag to get `100kb` back

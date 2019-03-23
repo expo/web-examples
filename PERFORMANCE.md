@@ -10,7 +10,7 @@ Expo automatically generates a `web-build/report.html` with Webpack Bundle Analy
 
 ## ⚡️ Lighthouse
 
-You can test your project with _audit_ tab in Chrome, or with the [**Lighthouse CLI**][lighthouse].
+You can test your project with the _Audit_ tab in Chrome, or with the [**Lighthouse CLI**][lighthouse].
 
 ```sh
 lighthouse <url> --view

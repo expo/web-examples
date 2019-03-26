@@ -6,9 +6,21 @@ Examples of using Expo in the browser. Read more about the [preview here.][previ
 
 Updates are made on the [expo](https://github.com/expo/expo-cli/), and [expo-cli](https://github.com/expo/expo/) repos.
 
-- See what features are currently supported: [**Features.**](./FEATURES.md)
-- Check out how to deploy your expo web app: [**Deploying.**](./DEPLOYMENT.md)
-- [Using Expo for web in a `react-native init` project](react-native-init/README.md)
-- [Using Expo for web in a `expo init` project](expo-managed-workflow/README.md)
+## Examples
+
+Here are some examples of using web with different React projects.
+
+- [**`react-native init`**](react-native-init/README.md)
+- [**`create-react-app`**](create-react-app/README.md)
+- [**`expo init`**](expo-managed-workflow/README.md)
+
+## Guides
+
+- [**Supported Expo features.**](docs/FEATURES.md)
+- [**Deploying your static website.**](docs/DEPLOYMENT.md)
+- [**Building progressive web apps.**](docs/PWA.md)
+- [**Testing performance with Lighthouse.**](docs/PERFORMANCE.md)
+- [**Extending webpack.**](docs/WEBPACK.md)
+- [**Customizing public files.**](docs/CUSTOMIZING-STATICS.md)
 
 [preview]: https://blog.expo.io/expo-cli-and-sdk-web-support-beta-d0c588221375

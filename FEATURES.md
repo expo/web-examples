@@ -39,21 +39,21 @@ You can also check out [**native.directory**](http://native.directory/) for a li
 | Switch Navigator          | ✅     |              | [`react-navigation`][react-navigation]                         |
 | MapView                   | 🔬     | Experimental | [`expo`][expo]                                                 |
 | BlurView                  | 🔬     | Experimental | [`expo-blur`][expo-blur]                                       |
-| Tab Navigator             | 🔬     | Experimental | [`react-navigation`][react-navigation]                         |
+| Tab Navigator             | ✅     | Experimental | [`react-navigation`][react-navigation]                         |
 | [PIXI.js][pixi]           | 🔬     | Experimental | [`expo-pixi`][expo-pixi]                                       |
 | [THREE.js][three]         | 🔬     | Experimental | [`expo-three`][expo-three]                                     |
 | Action Sheet              | ✅     |              | [`@expo/react-native-action-sheet`][action-sheet]              |
 | UI Alert                  | ⏳     | Incomplete   | [`@expo/react-native-action-sheet`][action-sheet]              |
 | Drawer Navigator          | ⏳     | Incomplete   | [`react-navigation`][react-navigation]                         |
-| Stack Navigator           | ⏳     | Incomplete   | [`react-navigation`][react-navigation]                         |
+| Stack Navigator           | 🔬     | Experimental | [`react-navigation`][react-navigation]                         |
 | Pan Gesture               | ⏳     | Incomplete   | [`react-native-gesture-handler`][react-native-gesture-handler] |
 | Tap Gesture               | ⏳     | Incomplete   | [`react-native-gesture-handler`][react-native-gesture-handler] |
 | Swipe Gesture             | ⏳     | Incomplete   | [`react-native-gesture-handler`][react-native-gesture-handler] |
 | Pinch Gesture             | ⏳     | Incomplete   | [`react-native-gesture-handler`][react-native-gesture-handler] |
 | GestureHandler Components | ⏳     | Incomplete   | [`react-native-gesture-handler`][react-native-gesture-handler] |
-| Screens                   | ⏳     | Incomplete   | [`react-native-screens`][react-native-screens]                 |
+| Screens                   | 🔬     | Experimental | [`react-native-screens`][react-native-screens]                 |
 | Facebook                  | ⏳     | Incomplete   | [`expo-facebook`][expo-facebook]                               |
-| ImageManipulator          | ⏳     | Incomplete   | [`expo-image-manipulator`][expo-image-manipulator]             |
+| ImageManipulator          | ✅     |              | [`expo-image-manipulator`][expo-image-manipulator]             |
 | ScreenOrientation         | ✅     |              | [`expo-screen-orientation`][expo-screen-orientation]           |
 | WebBrowser                | ⏳     | Incomplete   | [`expo-web-browser`][expo-web-browser]                         |
 | BackgroundFetch           | ⏳     | Incomplete   | [`expo-background-fetch`][expo-background-fetch]               |

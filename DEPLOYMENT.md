@@ -2,12 +2,27 @@
 
 ## Table of contents
 
+- [AWS Amplify Console](#aws-amplify-console)
 - [Now](#now)
 - [Surge](#surge)
 - [Netlify](#netlify)
   - [Manual deployment with the Netlify CDN](#manual-deployment-with-the-netlify-cdn)
   - [Continuous delivery](#continuous-delivery)
 - [GitHub Pages](#github-pages)
+
+## [AWS Amplify Console](https://console.amplify.aws)
+
+The AWS Amplify Console provides a Git-based workflow for continuously deploying and hosting full-stack serverless web apps. Amplify deploys your PWA from a repository instead of from your computer. In this guide, we'll use a GitHub repository. Before starting, [create a new repo on GitHub](https://github.com/new).
+
+1. Add the [amplify.yml](https://github.com/expo/amplify-demo/blob/master/amplify.yml) file to the root of your repo.
+
+2. Push your local Expo project to your GitHub repository. If you haven't pushed to GitHub yet, follow [GitHub's guide to add an existing project to GitHub](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line).
+
+3. Login to the [Amplify Console](https://console.aws.amazon.com/amplify/home) and choose **Get started** under **Deploy**. Grant Amplify permission to read from your GitHub account or organization that owns your repo.
+
+4. The Amplify Console will detect that the `amplify.yml` file is in your repo. Choose **Next**.
+
+5. Review your settings and choose **Save and deploy**. Your app will now be deployed to a `https://branchname.xxxxxx.amplifyapp.com` URL.
 
 ## [Now](https://zeit.co/now)
 
@@ -19,8 +34,10 @@ Now has a single-command zero-config deployment flow. You can use `now` to deplo
 
 2. Build your Expo web app with `expo build:web`.
 
-3. Run `now --name your-project-name`. You should see a **`now.sh`** URL in your output like:
-   `> Ready! https://expo-web-is-cool-nocabnave.now.sh (copied!)`
+3. To deploy:
+  - Run `cd web-build`
+  - Run `now --name your-project-name`
+  - You should see a **`now.sh`** URL in your output like: `> Ready! https://expo-web-is-cool-nocabnave.now.sh (copied!)`
 
 Paste that URL into your browser when the build is complete, and you will see your deployed app!
 

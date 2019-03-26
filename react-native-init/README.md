@@ -6,12 +6,18 @@ Here is how to use [_Unimodules_][uni] in a project bootstrapped with [`react-na
 
 - Install [React Native for Web][rnw] and React DOM: `yarn add react-native-web react-dom`
 - Create [**`index.web.js`**](./index.web.js)
+
   ```ts
-  import React from 'react';
-  import ReactDOM from 'react-dom';
+  import { AppRegistry } from 'react-native';
   import App from './App';
-  ReactDOM.render(<App />, document.getElementById('main'));
+  import { name as appName } from './app.json';
+
+  AppRegistry.registerComponent(appName, () => App);
+  AppRegistry.runApplication(appName, {
+    rootTag: document.getElementById('main'),
+  });
   ```
+
 - Add the following to your [`app.json`](./app.json):
   ```diff
   {

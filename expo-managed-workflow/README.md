@@ -8,7 +8,7 @@
   - (_preview_) Use the next version of Expo: `yarn add expo@next`
 - Add `"web"` to `platforms` in the [**`app.json`**](./app.json):
   ```diff
-  platforms: [
+  "platforms": [
       "android",
       "ios",
   +    "web"
@@ -18,6 +18,8 @@
   - or better `expo start --web --non-interactive`
 
 **Extra Credit**
+
+> **This will most likely change**
 
 - To use **`react-navigation`** use: `yarn add react-navigation@3.5.0-alpha.0`
 - Build with `expo build:web`
@@ -29,7 +31,30 @@
           ...
           "web": {
               // Add web stuff here.
+
+              // twitter card example
+              "twitter": {
+                "card": "summary",
+                "title": "Expo Web",
+                "description": "examples of using Expo in the browser",
+                "site": "https://expo.io",
+                "image": "//url-to-image",
+                "creator": "expo bacon"
+              },
+
+              // additional meta
+              "metatags": {
+                "author": "anthony kiedis",
+
+                // meta defaults override
+                "format-detection": "telephone=yes"
+              },
+
+              // turn off minify html (default true)
+              "minifyHTML": false
           }
       }
   }
   ```
+
+[rnw]: https://github.com/necolas/react-native-web/

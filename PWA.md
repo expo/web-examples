@@ -6,7 +6,7 @@ PWAs are somewhat of a downgrade from native apps, but an upgrade from websites.
 
 `@expo/webpack-pwa-manifest-plugin` will create the optimal experience for use on iOS, Windows, Desktop, and Android PWAs. It also optimizes use in Android TWAs (Trusted Web Apps), Facebook (Open Graph), and Twitter sharing with metatags.
 
-If you define the iOS Bundle ID or Android Package (for your published apps), then the native app installation banners can be presented with no added code.
+If you define the iOS Bundle ID or Android Package (for your published native apps), then the native app installation banners can be presented with no added code.
 
 All of the media queries used for creating splash screens on all iOS phones and tablets can be generated using the same splash screen you're already using in your native apps.
 

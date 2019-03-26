@@ -10,9 +10,9 @@ If you define the iOS Bundle ID or Android Package (for your published native ap
 
 All of the media queries used for creating splash screens on all iOS phones and tablets can be generated using the same splash screen you're already using in your native apps.
 
-Offline support, asset caching, request routing, and background sync is done using the popular [workbox][workbox] service worker library maintained by Google. It's used by everyone from Starbucks to Tinder (the only apps I use).
+Offline support, asset caching, request routing, and background sync is done using the popular [Workbox][workbox] service worker library maintained by Google. It's used by everyone from Starbucks to Tinder (the only apps I use).
 
-These things should get your [lighthouse][lighthouse] PWA scores to 100 (given your app is performant and resizes properly).
+These things should get your [Lighthouse][lighthouse] PWA scores to 100 (given your app is performant and resizes properly).
 
 [workbox]: https://developers.google.com/web/tools/workbox/
 [lighthouse]: https://developers.google.com/web/tools/lighthouse/

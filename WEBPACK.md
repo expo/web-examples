@@ -15,7 +15,7 @@ Simply create a `webpack.config.js` and merge in a new loader.
 
 ```ts
 const merge = require('webpack-merge');
-// This will automatically get the dev/prod config based on the env.
+// This will automatically get the dev/prod config based on process.env.NODE_ENV.
 const expoConfig = require('@expo/webpack-config');
 
 // Create a loader which can import `.obj` & `.mtl` (popular 3D model files (not popular enough to be part of the default config though... 😏))

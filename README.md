@@ -1,4 +1,4 @@
-# web-examples
+# Expo for Web
 
 Examples of using Expo in the browser. Read more about the [preview here.][preview]
 
@@ -17,6 +17,7 @@ Here are some examples of using web with different React projects.
 ## Guides
 
 - [**Supported Expo features.**](docs/FEATURES.md)
+- [**Contributing to web support.**](docs/developing.md)
 - [**Creating Unimodules.**](docs/adding-web-support-to-unimodules.md)
 - [**Deploying your static website.**](docs/DEPLOYMENT.md)
 - [**Building progressive web apps.**](docs/PWA.md)

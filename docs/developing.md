@@ -7,7 +7,7 @@ There are a couple different things you could work on in regards to Expo for web
 To work on modules like `expo-camera` or even community libraries, I like to work in the expo monorepo, this is because it's a yarn workspace which links the packages really well.
 
 - Clone the repo `git clone git@github.com:expo/expo.git`
-- [Setup the project](https://github.com/expo/expo/#set-up).
+- [Set up the project](https://github.com/expo/expo/#set-up).
 - I also tend to run `git submodule init && git submodule update && git submodule foreach --recursive git checkout . && git lfs pull` just to be safe! 😄
 
 Now to develop Unimodules, work on apps in the `expo/apps` folder.
@@ -65,9 +65,9 @@ Now TS will be running for that project and changes you make will be reflected i
 
 If you want to work on the CLI, webpack config, PWA generation, or bootstrapping this is what you want! If you aren't planning on making changes to the CLI, you can just use `npm i -g expo-cli` and start projects with `expo start --web`.
 
-- Setup `expo-cli`
+- Set up `expo-cli`
 - Clone the repo `git clone git@github.com:expo/expo-cli.git`
-- [Setup the project](https://github.com/expo/expo-cli/blob/master/CONTRIBUTING.md#setting-up-the-repository-for-development).
+- [Set up the project](https://github.com/expo/expo-cli/blob/master/CONTRIBUTING.md#setting-up-the-repository-for-development).
 
 ## Global Usage
 

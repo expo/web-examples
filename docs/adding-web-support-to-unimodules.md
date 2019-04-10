@@ -267,6 +267,6 @@ Currently all methods are `async` and return a promise. This is until Turbo Modu
 [Here are some examples](https://github.com/expo/expo/tree/master/packages/expo/src/effects)
 
 - Create separate views for web
-- No `CSS`
+- No external `CSS` files
 - Use `JSX` over `createElement`
 - Avoid using non-React(-Native) components. ie: `View` instead of `div`

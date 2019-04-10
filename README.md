@@ -17,6 +17,7 @@ Here are some examples of using web with different React projects.
 ## Guides
 
 - [**Supported Expo features.**](docs/FEATURES.md)
+- [**Creating Unimodules.**](docs/adding-web-support-to-unimodules.md)
 - [**Deploying your static website.**](docs/DEPLOYMENT.md)
 - [**Building progressive web apps.**](docs/PWA.md)
 - [**Testing performance with Lighthouse.**](docs/PERFORMANCE.md)

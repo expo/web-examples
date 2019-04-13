@@ -56,3 +56,5 @@ buck-out/
 *.jsbundle
 
 web-build
+web-report
+.expo

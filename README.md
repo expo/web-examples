@@ -11,7 +11,7 @@ Updates are made on the [expo](https://github.com/expo/expo-cli/), and [expo-cli
 Here are some examples of using web with different React projects.
 
 - [**`react-native init`**](react-native-init/README.md)
-- [**`create-react-app`**](create-react-app/README.md)
+- [**`create-react-app`**](create-react-app-example/README.md)
 - [**`expo init`**](expo-managed-workflow/README.md)
 
 ## Guides

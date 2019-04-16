@@ -70,6 +70,7 @@ You can also check out [**native.directory**](http://native.directory/) for a li
 | AppLoading                | ⏳     | Incomplete   | [`expo`][expo]                                                 |
 | Logs                      | ⏳     | Incomplete   | [`expo`][expo]                                                 |
 | ErrorRecovery             | ⏳     | Incomplete   | [`expo`][expo]                                                 |
+| Sentry                    | ⏳     | Incomplete   | [`sentry-expo`][sentry-expo]                                   |
 | AR                        | 📱     | Native Only  | [`expo-ar`][expo-ar]                                           |
 | AuthSession               | 📱     | Native Only  | [`expo-auth-session`][expo-auth-session]                       |
 | Brightness                | 📱     | Native Only  | [`expo-brightness`][expo-brightness]                           |
@@ -124,6 +125,7 @@ You can also check out [**native.directory**](http://native.directory/) for a li
 [expo-face-detector]: https://github.com/expo/expo/tree/master/packages/expo-face-detector
 [expo-file-system]: https://github.com/expo/expo/tree/master/packages/expo-file-system
 [expo-google-sign-in]: https://github.com/expo/expo/tree/master/packages/expo-google-sign-in
+[sentry-expo]: https://github.com/expo/sentry-expo
 [expo-analytics-segment]: https://github.com/expo/expo/tree/master/packages/expo-analytics-segment
 [expo-sqlite]: https://github.com/expo/expo/tree/master/packages/expo-sqlite
 [expo-document-picker]: https://github.com/expo/expo/tree/master/packages/expo-document-picker

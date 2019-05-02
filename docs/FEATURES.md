@@ -131,7 +131,7 @@ You can also check out [**native.directory**](http://native.directory/) for a li
 [expo-document-picker]: https://github.com/expo/expo/tree/master/packages/expo-document-picker
 [expo-image-picker]: https://github.com/expo/expo/tree/master/packages/expo-image-picker
 [expo-mail-composer]: https://github.com/expo/expo/tree/master/packages/expo-mail-composer
-[expo-svg]: https://github.com/expo/expo/tree/master/packages/expo-svg
+[expo-svg]: https://github.com/expo/expo/blob/18f71ee3d448e25807418e60cae087c9284c267c/packages/expo/src/Svg.web.ts
 [expo-updates]: https://github.com/expo/expo/tree/master/packages/expo-updates
 [expo-linear-gradient]: https://github.com/expo/expo/tree/master/packages/expo-linear-gradient
 [expo-asset]: https://github.com/expo/expo/tree/master/packages/expo-asset

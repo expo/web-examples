@@ -71,6 +71,7 @@ You can also check out [**native.directory**](http://native.directory/) for a li
 | Logs                      | ⏳     | Incomplete   | [`expo`][expo]                                                 |
 | ErrorRecovery             | ⏳     | Incomplete   | [`expo`][expo]                                                 |
 | Sentry                    | ⏳     | Incomplete   | [`sentry-expo`][sentry-expo]                                   |
+| Branch                    | ⏳     | Incomplete   | [`expo`][expo]                                                 |
 | AR                        | 📱     | Native Only  | [`expo-ar`][expo-ar]                                           |
 | AuthSession               | 📱     | Native Only  | [`expo-auth-session`][expo-auth-session]                       |
 | Brightness                | 📱     | Native Only  | [`expo-brightness`][expo-brightness]                           |

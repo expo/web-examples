@@ -14,7 +14,7 @@ Here is how to use [_Unimodules_][uni] in a project bootstrapped with [`react-na
 
   AppRegistry.registerComponent(appName, () => App);
   AppRegistry.runApplication(appName, {
-    rootTag: document.getElementById('main'),
+    rootTag: document.getElementById('root'),
   });
   ```
 

@@ -3,6 +3,9 @@
 > This is a **preview** and subject to breaking changes. Do not use this in production yet.
 
 - Install the latest expo-cli `npm i -g expo-cli`
+- Create new project
+  - `expo init AwesomeProject` (select blank project)
+  - `cd AwesomeProject`
 - Add dependencies:
   - [react native web][rnw]: `yarn add react-native-web react-dom`
   - (_preview_) Use the next version of Expo: `yarn add expo@next`

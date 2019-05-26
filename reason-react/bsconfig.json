@@ -1,0 +1,23 @@
+{
+  "name": "expo-web-reason",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "bs-react-native-monorepo/reason-react-native"
+  ],
+  "refmt": 3
+}

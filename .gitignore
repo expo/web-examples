@@ -56,3 +56,4 @@ buck-out/
 *.jsbundle
 
 web-build
+reason-react/src/*.bs.js

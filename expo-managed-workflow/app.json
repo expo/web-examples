@@ -3,7 +3,7 @@
     "name": "expo managed workflow",
     "slug": "expo-managed-workflow",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "34.0.0",
     "platforms": ["android", "ios", "web"],
     "version": "1.0.0",
     "orientation": "portrait",

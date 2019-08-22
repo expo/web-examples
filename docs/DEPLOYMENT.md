@@ -96,7 +96,7 @@ Add the following to your `package.json`:
 {
     "homepage": "http://evanbacon.github.io/expo-gh-pages",
     "scripts": {
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d web-build",
         "predeploy": "expo build:web"
     }
 }
@@ -150,7 +150,7 @@ Here are the formal instructions for deploying to GitHub Pages:
    ```js
    "scripts": {
      /* ... */
-     "deploy": "gh-pages -d build",
+     "deploy": "gh-pages -d web-build",
      "predeploy": "expo build:web"
    }
    ```

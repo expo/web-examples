@@ -2,6 +2,8 @@
 
 ## Table of contents
 
+- [Creating a Build](#creating-a-build)
+
 - [AWS Amplify Console](#aws-amplify-console)
 - [Now](#now)
 - [Surge](#surge)
@@ -9,6 +11,16 @@
   - [Manual deployment with the Netlify CDN](#manual-deployment-with-the-netlify-cdn)
   - [Continuous delivery](#continuous-delivery)
 - [GitHub Pages](#github-pages)
+
+## Creating a Build
+
+You can build your app with the command `expo build:web` from the root of your project.
+This will create a `web-build/` directory with the static bundle in it. 
+You can then deploy that to AWS, Netlify, etc., or host it on your own servers.
+
+If you want to test the static build from your local machine, you'll need to run a webserver locally since it is a PWA. Opening `index.html` directly in your browser the way you can with a plain website doesn't work with PWAs. One way you could do this would be `npm install -g http-server; http-server .` inside the `web-build/` directory; and then opening the URL it shows you, ex. http://127.0.0.1:8080 .
+
+---
 
 ## [AWS Amplify Console](https://console.amplify.aws)
 

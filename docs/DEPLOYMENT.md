@@ -37,9 +37,9 @@ Now has a single-command zero-config deployment flow. You can use `now` to deplo
 
 3. To deploy:
 
-- Run `cd web-build`
-- Run `now --name your-project-name`
-- You should see a **`now.sh`** URL in your output like: `> Ready! https://expo-web-is-cool-nocabnave.now.sh (copied!)`
+  - Run `cd web-build`
+  - Run `now --name your-project-name`
+  - You should see a **`now.sh`** URL in your output like: `> Ready! https://expo-web-is-cool-nocabnave.now.sh (copied!)`
 
 Paste that URL into your browser when the build is complete, and you will see your deployed app!
 

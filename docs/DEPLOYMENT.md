@@ -9,6 +9,7 @@
   - [Manual deployment with the Netlify CDN](#manual-deployment-with-the-netlify-cdn)
   - [Continuous delivery](#continuous-delivery)
 - [GitHub Pages](#github-pages)
+- [Firebase](#firebase)
 
 ## [AWS Amplify Console](https://console.amplify.aws)
 
@@ -166,3 +167,31 @@ Here are the formal instructions for deploying to GitHub Pages:
    - !! Your app is now available at the URL you set as `homepage` in your `package.json` (call your parents and show them! 😜)
 
    > When you publish code to `gh-pages`, it will create and push the code to a branch in your repo called `gh-pages`. This branch will have your built code but not your development source code.
+   
+## [Firebase](https://console.firebase.google.com)
+
+1. Install the Firebase CLI: 
+```
+$ npm install -g firebase-tools
+```
+
+2. Login. A browser window will open where you can sign in with your Google account.
+```
+$ firebase login
+```
+
+3. Initialize a new Firebase project. Follow the instructions. When asked if you're deploying a single page application choose "yes". Change the directory to deploy from "public" to "web-build".
+```
+$ firebase init
+```
+
+4. Build your Expo web app
+```
+$ expo build:web
+```
+
+5. Deploy to Firebase (the "--only hosting" flag is optional)
+```
+$ firebase deploy --only hosting
+```
+

@@ -9,6 +9,7 @@
   - [Manual deployment with the Netlify CDN](#manual-deployment-with-the-netlify-cdn)
   - [Continuous delivery](#continuous-delivery)
 - [GitHub Pages](#github-pages)
+- [Firebase Hosting](#firebase-hosting)
 
 ## [AWS Amplify Console](https://console.amplify.aws)
 
@@ -35,6 +36,7 @@ Now has a single-command zero-config deployment flow. You can use `now` to deplo
 2. Build your Expo web app with `expo build:web`.
 
 3. To deploy:
+
   - Run `cd web-build`
   - Run `now --name your-project-name`
   - You should see a **`now.sh`** URL in your output like: `> Ready! https://expo-web-is-cool-nocabnave.now.sh (copied!)`
@@ -166,3 +168,63 @@ Here are the formal instructions for deploying to GitHub Pages:
    - !! Your app is now available at the URL you set as `homepage` in your `package.json` (call your parents and show them! 😜)
 
    > When you publish code to `gh-pages`, it will create and push the code to a branch in your repo called `gh-pages`. This branch will have your built code but not your development source code.
+
+## [Firebase Hosting](https://console.firebase.google.com/)
+
+### Setup Firebase
+
+- Create a firebase project with the [Firebase Console](https://console.firebase.google.com).
+
+- Install the Firebase CLI if you haven’t already by following these [instructions](https://firebase.google.com/docs/hosting).
+- Run the `firebase login` command, then promptly log in.
+- Run the `firebase init` command, select your project and hosting.
+
+- When asked about the public path, make sure to specify the `web-build` folder.
+
+- Answer 'Configure as a single-page app (rewrite all urls to /index.html)' with 'Yes'.
+
+### Update package.json
+
+In the existing `scripts` property, add a `predeploy` property and a `deploy` property, each having the values shown below:
+
+```js
+"scripts": {
+  /* ... */
+  "predeploy": "expo build:web",
+  "deploy-hosting": "npm run predeploy && firebase deploy --only hosting",
+}
+```
+
+Run the `npm run deploy-hosting` command to deploy.
+
+Open the url from the console output to check your deployment, e.g. https://PROJECTNAME.firebaseapp.com
+
+In case you want to change the header for hosting add the following config in `hosting` section in firebase.json:
+
+```js
+  "hosting": [
+    {
+      /* ... */
+ "headers": [
+        {
+          "source": "/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|eot|otf|ttf|ttc|woff|woff2|font.css)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=604800"
+            }
+          ]
+        }
+      ],
+    }
+  ]
+```

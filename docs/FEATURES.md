@@ -64,7 +64,7 @@ You can also check out [**native.directory**](http://native.directory/) for a li
 | GoogleSignIn              | ⏳     | Incomplete   | [`expo-google-sign-in`][expo-google-sign-in]                   |
 | Segment                   | ⏳     | Incomplete   | [`expo-analytics-segment`][expo-analytics-segment]             |
 | Google                    | ⏳     | Incomplete   | [`expo`][expo]                                                 |
-| Notifications             | ⏳     | Incomplete   | [`expo`][expo]                                                 |
+| Notifications             | ✅     |              | [`expo`][expo]                                                 |
 | apisAreAvailable          | ⏳     | Incomplete   | [`expo`][expo]                                                 |
 | takeSnapshotAsync         | 🔬     | Experimental | [`expo`][expo]                                                 |
 | AppLoading                | ⏳     | Incomplete   | [`expo`][expo]                                                 |

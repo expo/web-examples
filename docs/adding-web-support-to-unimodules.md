@@ -65,7 +65,7 @@ async function selectPrinter(): Promise<SelectResult> {
 
 ### Exporting
 
-We use default exports instead of named exports in order to better match the native synatx.
+We use default exports instead of named exports in order to better match the native syntax.
 
 **`src/ExpoPrint.web.ts`**
 

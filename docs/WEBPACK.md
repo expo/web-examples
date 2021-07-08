@@ -27,8 +27,8 @@ const modelLoaderConfiguration = {
 };
 
 // Expo expects a function so we can pass around options.
-module.exports = function(env, argv) {
-  return merge(expoConfig(env, argv), {
+module.exports = async function(env, argv) {
+  return merge(await expoConfig(env, argv), {
     module: {
       rules: [modelLoaderConfiguration],
     },
